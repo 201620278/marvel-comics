@@ -50,21 +50,6 @@ const Header: React.FC = () => (
       </Link>
 
     </div>
-    <DevDiv>
-      <p>
-        Desenvolvido com
-        {' '}
-        <FiHeart />
-        {' '}
-        por
-        <br />
-        <strong> Luiz Silva</strong>
-      </p>
-
-      <a href="https://github.com/lulygomes">
-        <img src="https://avatars0.githubusercontent.com/u/39559790?s=460&u=717ae4781828256277ecda1eb848ad4d04fc0d6d&v=4" alt="Luiz Silva" />
-      </a>
-    </DevDiv>
   </Container>
 );
 

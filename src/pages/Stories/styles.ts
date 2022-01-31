@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-content: start;
+  background-color: #030303;
 `;
 
 export const Card = styled.div`

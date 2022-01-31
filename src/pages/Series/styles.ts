@@ -12,6 +12,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-content: start;
+  background-color: #030303;
 `;
 
 const urlImg = (props: ThumbnailDTO) => `${props.thumbnail.path}.${props.thumbnail.extension}`;
