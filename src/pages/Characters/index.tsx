@@ -1,18 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { FiChevronsDown, FiSearch, FiCornerDownLeft } from 'react-icons/fi';
-
 import api, { authKey } from '../../services/api';
-
-import {
-  Container, Card, ButtonMore, InputLabel,
-} from './styles';
+import { Container, Card, ButtonMore, InputLabel,} from './styles';
 
 interface ComicsDTO {
   items: {
     name:string;
   }[]
 }
-
 interface CharactersDTO {
   id: number;
   name: string;

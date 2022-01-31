@@ -19,7 +19,6 @@ export const Container = styled.header`
 
     }
 
-
   a {
     display: flex;
     flex-direction: row;
@@ -40,26 +39,14 @@ export const Container = styled.header`
     }
 
   }
-
-`;
-
-export const DevDiv = styled.div`
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: .1rem;
-  color: #505050;
-
-  a {
-    background: transparent;
-    width: 80px;
-    box-shadow: none;
+  input{
+    width: 290px;
+    border-radius: 5px;
+    text-align: center;
   }
-
-  img {
-    border-radius: 50%;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
-
+  button{
+      border-radius: 5px;
+      width: 80px;
+      text-align: center;
   }
 `;

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  FiHeart,
   FiUser,
   FiBookOpen,
   FiUsers,
@@ -9,24 +8,28 @@ import {
   FiFilm,
   FiBook,
 } from 'react-icons/fi';
-
 import logoMarvel from '../../assets/MarvelLogo1.svg';
-
-import { Container, DevDiv } from './styled';
+import { Container } from './styled';
 
 const Header: React.FC = () => (
   <Container>
     <img src={logoMarvel} alt="Marvel" />
 
     <div>
-      <Link to="/characters">
-        <FiUser />
-        Characters
+
+    <Link to="/Maps">
+        <FiBookOpen />
+        Enviar
       </Link>
 
       <Link to="/comics">
         <FiBookOpen />
         Comics
+      </Link>
+
+      <Link to="/characters">
+        <FiUser />
+        Characters
       </Link>
 
       <Link to="/creators">
