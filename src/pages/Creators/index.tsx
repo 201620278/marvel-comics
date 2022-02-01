@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { FiChevronsDown } from 'react-icons/fi';
 import api, { authKey } from '../../services/api';
-
 import { Container, Card, ButtonMore } from './styles';
 
 interface ThumbnailDTO {

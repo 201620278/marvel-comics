@@ -25,7 +25,7 @@ const MapPage = () => {
       >
         <Marker position = {position} options={{
           label: {
-            text: "Aqui esta seus quadrinhos",
+            text: "Aqui estão seus Comis",
             className: "map-marker"
           }
         }}/>

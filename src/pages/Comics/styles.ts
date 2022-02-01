@@ -7,12 +7,14 @@ interface ThumbnailDTO {
   }
 }
 
-export const Container = styled.div`
+export const Container = styled.header`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: start;
   background-color: #030303;
+
+
 `;
 
 const urlImg = (props: ThumbnailDTO) => `${props.thumbnail.path}.${props.thumbnail.extension}`;
@@ -28,12 +30,10 @@ export const Card = styled.div`
   background-size: cover;
   padding: 5px;
 
-
   &:hover {
     h2, p{
       background-color:rgba(255,255,255,0.70);
       color: rgba(0,0,0,1.0)
-
     }
   }
 
@@ -45,9 +45,7 @@ export const Card = styled.div`
     border-radius: 5px;
     text-align: justify;
 
-
   }
-
 `;
 
 export const ButtonMore = styled.div`
@@ -62,7 +60,6 @@ export const ButtonMore = styled.div`
   padding: 0 50px;
   border-radius: 5px;
   transition: background 0.3s;
-
 
   &:hover{
     background: #ec1d24;

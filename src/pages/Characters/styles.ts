@@ -59,6 +59,7 @@ export const Container = styled.div`
   justify-content: center;
   align-content: start;
   background-color: #030303;
+  margin-top: 10px;
 `;
 
 const urlImg = (props: ThumbnailDTO) => `${props.thumbnail.path}.${props.thumbnail.extension}`;

@@ -43,8 +43,6 @@ export const Card = styled.div`
     height: 100px;
     }
   }
-
-
 `;
 
 export const ButtonMore = styled.div`
@@ -59,7 +57,6 @@ export const ButtonMore = styled.div`
   padding: 0 50px;
   border-radius: 5px;
   transition: background 0.3s;
-
 
   &:hover{
     background: #ec1d24;

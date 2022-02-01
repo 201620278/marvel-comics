@@ -16,7 +16,6 @@ const Header: React.FC = () => (
     <img src={logoMarvel} alt="Marvel" />
 
     <div>
-
     <Link to="/Maps">
         <FiBookOpen />
         Enviar

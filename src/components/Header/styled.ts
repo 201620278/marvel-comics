@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+  position: fixed;
   background: #ee171f;
   height: 80px;
   width: 100%;
@@ -25,7 +26,7 @@ export const Container = styled.header`
     align-items: center;
     text-decoration: none;
     color: #000;
-    background: #fefefe;
+    background: gray;
     height: 40px;
     margin: 15px;
     padding: 10px 10px;
@@ -37,16 +38,5 @@ export const Container = styled.header`
       margin-right: 5px;
       color: #000;
     }
-
-  }
-  input{
-    width: 290px;
-    border-radius: 5px;
-    text-align: center;
-  }
-  button{
-      border-radius: 5px;
-      width: 80px;
-      text-align: center;
   }
 `;
